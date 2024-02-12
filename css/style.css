@@ -1,0 +1,10 @@
+.debug{
+  background-color: rgba(255, 0, 0, 0.3);
+}
+.custom-mobile-logo{
+  width: 40px;
+  aspect-ratio: 1/1;
+}
+.custom-grey-icon{
+  color:#5b5858;
+}
