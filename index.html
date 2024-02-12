@@ -33,6 +33,7 @@
     </nav>
     <main>
       <div class="custom-big-container d-flex">
+        <!-- LEFT-BAR -->
         <div class="custom-left-container text-center text-light d-flex flex-column justify-content-between ">
           <div class="row g-0 mt-4 ">
             <div class="col ">
@@ -55,30 +56,141 @@
             </div>
           </div>
         </div>
-        <div class="custom-blue-bar bg-primary text-light debug ">
-          <div class="row h-100  flex-column flex-md-row align-items-center ">
-            <div class="col col-md-6 pe-4  mt-md-0 order-1  ">
-              <div>
-                <h2 class="d-inline">Boolean</h2>
-                <span class="badge custom-blue-badge rounded-pill">Piano blaze</span>
+        <!-- BLUE BAR -->
+        <div class="w-100">
+          <div class="custom-blue-bar bg-primary text-light">
+            <div class="row h-100  flex-column flex-md-row align-items-center ">
+              <div class="col col-md-6 pe-4  mt-md-0 order-1  ">
+                <div>
+                  <h2 class="d-inline">Boolean</h2>
+                  <span class="badge custom-blue-badge rounded-pill">Piano blaze</span>
+                </div>
+                <span class="badge custom-blue-badge rounded-pill">3 app</span>
+                <span>&raquo;</span>
+                <span class="badge custom-blue-badge rounded-pill d-none d-lg-inline">Boolean mobile app</span>
+                <span class="badge custom-blue-badge rounded-pill d-none d-lg-inline">Boolean web app</span>
+                <span class="badge custom-blue-badge rounded-pill d-none d-lg-inline ">Boolean blog app</span>
+                <span class="badge custom-blue-badge rounded-pill d-lg-none">+</span>
               </div>
-              <span class="badge custom-blue-badge rounded-pill">3 app</span>
-              <span>&raquo;</span>
-              <span class="badge custom-blue-badge rounded-pill d-none d-lg-inline">Boolean mobile app</span>
-              <span class="badge custom-blue-badge rounded-pill d-none d-lg-inline">Boolean web app</span>
-              <span class="badge custom-blue-badge rounded-pill d-none d-lg-inline ">Boolean blog app</span>
-              <span class="badge custom-blue-badge rounded-pill d-lg-none">+</span>
-            </div>
-            <div class="col col-md-3 pe-4 pe-md-0 order-2 ">
-              <p>Studenti online negli ultimi 30 minuti</p>
-              <h2>125</h2>
-            </div>
-            <div class="col col-md-3 pe-4 pe-md-0 mt-3 mt-md-0  order-0 order-md-3  ">
-              <span>Nuovo Studente</span>
-              <button type="button" class="btn btn-outline-light">+</button>
-
+              <div class="col col-md-3 pe-4 pe-md-0 order-2 ">
+                <p class="m-0">Studenti online negli ultimi 30 minuti</p>
+                <h3>125</h3>
+              </div>
+              <div class="col col-md-3 pe-4 pe-md-0 mt-3 mt-md-0  order-0 order-md-3  ">
+                <span>Nuovo Studente</span>
+                <button type="button" class="btn btn-outline-light">+</button>
+              </div>
             </div>
           </div>
+          <!-- MAIN-AREA -->
+          <div class="custom-big-container custom-main overflow-scroll  debug">
+            <!-- TABLE -->
+            <div class="row">
+              <div class="col">
+                <div class="m-2 border rounded-1 border-dark bg-light">
+                  <div class="bg-light text-center">
+                    <h2 class="text-end p-2 mb-0">Prossime classi</h2>
+                  </div>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Nome</th>
+                        <th scope="col" class="d-none d-md-table-cell">Data inizio</th>
+                        <th scope="col" class="d-none d-md-table-cell">ROI</th>
+                        <th scope="col">Stato</th>
+                        <th scope="col">Azioni</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Classe 75</td>
+                        <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                        <td class="d-none d-md-table-cell">20%</td>
+                        <td><span class="badge rounded-pill text-bg-success">Done</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                          <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Classe 76</td>
+                        <td class="d-none d-md-table-cell">16 Feb 2021</td>
+                        <td class="d-none d-md-table-cell">20%</td>
+                        <td><span class="badge rounded-pill text-bg-success">Done</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                          <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Classe 77</td>
+                        <td class="d-none d-md-table-cell">17 Feb 2021</td>
+                        <td class="d-none d-md-table-cell">20%</td>
+                        <td><span class="badge rounded-pill text-bg-warning text-light ">Process</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                          <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Classe 78</td>
+                        <td class="d-none d-md-table-cell">18 Feb 2021</td>
+                        <td class="d-none d-md-table-cell">20%</td>
+                        <td><span class="badge rounded-pill text-bg-success">Done</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                          <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Classe 79</td>
+                        <td class="d-none d-md-table-cell">19 Feb 2021</td>
+                        <td class="d-none d-md-table-cell">20%</td>
+                        <td><span class="badge rounded-pill text-bg-danger">failed</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                          <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Classe 80</td>
+                        <td class="d-none d-md-table-cell">20 Feb 2021</td>
+                        <td class="d-none d-md-table-cell">20%</td>
+                        <td><span class="badge rounded-pill text-bg-success">Done</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                          <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Classe 81</td>
+                        <td class="d-none d-md-table-cell">21 Feb 2021</td>
+                        <td class="d-none d-md-table-cell">20%</td>
+                        <td><span class="badge rounded-pill text-bg-danger">failed</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                          <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Classe 82</td>
+                        <td class="d-none d-md-table-cell">22 Feb 2021</td>
+                        <td class="d-none d-md-table-cell">20%</td>
+                        <td><span class="badge rounded-pill text-bg-success">Done</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                          <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- FAQ -->
+
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>

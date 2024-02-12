@@ -31,11 +31,17 @@ body{
 .custom-blue-badge{
   background-color: #165bba;
 }
+.custom-main{
+  height: calc(100vh - 217px - 70px);
+}
 
 @media screen and (min-width:768px) {
   .custom-blue-bar{
-    height: 135px;
+    height: 100px;
     
+  }
+  .custom-main{
+    height: calc(100vh - 100px - 70px);
   }
 }
 @media screen and (min-width:992px) {
