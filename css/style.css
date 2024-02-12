@@ -1,5 +1,6 @@
 body{
-  font-family:'Roboto', sans-serif;;
+  font-family:'Roboto', sans-serif;
+  
 }
 .debug{
   background-color: rgba(255, 0, 0, 0.3);
@@ -23,9 +24,14 @@ body{
   background-image: url(../img/sidebar-bg.png);
   background-color: #051e34;
 }
-@media screen and (min-width:768px) {
-  
+.custom-blue-bar{
+  height: 135px;
+  width: 100%;
 }
+.custom-blue-badge{
+  background-color: #165bba;
+}
+
 @media screen and (min-width:992px) {
   .custom-left-container{
     width:150px;
