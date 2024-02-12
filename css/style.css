@@ -25,13 +25,19 @@ body{
   background-color: #051e34;
 }
 .custom-blue-bar{
-  height: 135px;
+  height: 217px;
   width: 100%;
 }
 .custom-blue-badge{
   background-color: #165bba;
 }
 
+@media screen and (min-width:768px) {
+  .custom-blue-bar{
+    height: 135px;
+    
+  }
+}
 @media screen and (min-width:992px) {
   .custom-left-container{
     width:150px;
