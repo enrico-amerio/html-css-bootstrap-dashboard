@@ -1,5 +1,11 @@
+body{
+  font-family:'Roboto', sans-serif;;
+}
 .debug{
   background-color: rgba(255, 0, 0, 0.3);
+}
+.custom-nav{
+  height:70px;
 }
 .custom-mobile-logo{
   width: 40px;
@@ -7,4 +13,22 @@
 }
 .custom-grey-icon{
   color:#5b5858;
+}
+.custom-big-container{
+  width: 100%;
+}
+.custom-left-container{
+  width:55px;
+  height: calc(100vh - 70px);
+  background-image: url(../img/sidebar-bg.png);
+  background-color: #051e34;
+}
+@media screen and (min-width:768px) {
+  
+}
+@media screen and (min-width:992px) {
+  .custom-left-container{
+    width:150px;
+    
+  }
 }
