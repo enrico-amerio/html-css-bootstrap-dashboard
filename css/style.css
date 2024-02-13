@@ -37,6 +37,9 @@ body{
 .custom-graph{
   max-width: 1000px;
 }
+.custom-hover-effect:hover{
+  background-color: rgba(255,255,255,0.3);
+}
 @media screen and (min-width:768px) {
   .custom-blue-bar{
     height: 100px;
