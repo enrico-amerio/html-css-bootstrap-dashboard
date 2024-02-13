@@ -24,11 +24,21 @@
         <a  href="#">
           <img src="img/logo.svg" alt="Logo" class="d-none d-md-block me-4 ">
         </a>
-        <input class="form-control" type="search" placeholder="Prova a cercare: Lezioni Laravel">
+        <div class="input-group m-2">
+          <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+          <input class="form-control" type="search" placeholder="Prova a cercare: Lezioni Laravel">
+        </div>
         <div class="d-none d-lg-block m-2 custom-grey-icon"><i class="fa-solid fa-list-ul"></i></div>
         <div class="d-none d-lg-block m-2 custom-grey-icon"><i class="fa-solid fa-circle-question"></i></div>
         <div class="d-none d-lg-block m-2 custom-grey-icon"><i class="fa-solid fa-ellipsis-vertical"></i></div>
-        <div class="m-2" style="color:#ff8f00;"><i class="fa-solid fa-bell"></i></div>
+        <div class="dropdown">
+          <a role="button" id="dropdownMenu" class="m-2" data-bs-toggle="dropdown" aria-expanded="false" style="color:#ff8f00;"><i class="fa-solid fa-bell"></i></a>
+          <ul class="dropdown-menu dropdown-menu-end " aria-labelledby="dropdownMenu" >
+            <li><a class="dropdown-item" href="#">Profilo</a></li>
+            <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
     <main>
@@ -36,21 +46,21 @@
         <!-- LEFT-BAR -->
         <div class="custom-left-container text-light d-flex flex-column justify-content-between pt-4 pb-4">
               <div>
-                <button class=" btn text-light  d-flex flex-lg-rox  custom-hover-effect">
+                <button class="w-100 btn text-light  d-flex flex-lg-rox  custom-hover-effect">
                   <div><i class="fa-solid fa-house"></i></div>
                   <div class="d-none d-lg-block  ms-3 ">Home</div>
                 </button>
-                <button class="btn text-light d-flex flex-lg-rox  mt-3 custom-hover-effect">
+                <button class="w-100 btn text-light d-flex flex-lg-rox  mt-3 custom-hover-effect">
                   <div ><i class="fa-solid fa-chart-simple"></i></div>
                   <div class="d-none d-lg-block ms-3 ">Stats</div>
                 </button>
-                <button class="btn text-light d-flex flex-lg-rox  mt-3 custom-hover-effect">
+                <button class="w-100 btn text-light d-flex flex-lg-rox  mt-3 custom-hover-effect">
                   <div><i class="fa-solid fa-signal"></i></div>
                   <div class="d-none d-lg-block  ms-3 ">Signals</div>
                 </button>
               </div>
               <div>
-                <button class="btn text-light d-flex flex-lg-rox  custom-hover-effect">
+                <button class="w-100 btn text-light d-flex flex-lg-rox  custom-hover-effect">
                   <div><i class="fa-solid fa-gear"></i></div>
                   <div class="d-none d-lg-block  ms-3 ">Admin</div>
                 </button>
