@@ -34,7 +34,9 @@ body{
 .custom-main{
   height: calc(100vh - 217px - 70px);
 }
-
+.custom-graph{
+  max-width: 1000px;
+}
 @media screen and (min-width:768px) {
   .custom-blue-bar{
     height: 100px;
